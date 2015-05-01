@@ -8,6 +8,6 @@ Read Vagrantfile to see how the box is configured.
 
 ### How to use this?
 - Install [vagrant](vargantup.com)
-- Install [vagrant plugin](http://docs.vagrantup.com/v2/cli/plugin.html) for virtualbox: vagrant plugin install virtualbox
+- Install [vagrant plugin](http://docs.vagrantup.com/v2/cli/plugin.html) for virtualbox: `vagrant plugin install virtualbox`
 - Create your new project in git
-- Link devenv into the project under “devenv” top-level directory. The name is not important, but the directory must be top-level relative to your project.
+- Link devenv into the project under “devenv” top-level directory. Like this: `git submodule add https://github.com/alexissmirnov/devenv devenv` The name is not important, but the directory must be top-level relative to your project. Here's [how to set up a git project to use an external repo submodule](http://stackoverflow.com/questions/2140985/how-to-set-up-a-git-project-to-use-an-external-repo-submodule)
