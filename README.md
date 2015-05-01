@@ -1,5 +1,4 @@
-# devenv
-Vagrant-based multi-language development environment
+# Vagrant-based multi-language development environment
 
 This project contains the definition of a Vagrant dev environment box.
 
